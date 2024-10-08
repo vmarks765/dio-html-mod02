@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select e seus tipos</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label for="">Nome: </label><input name="name" type="text"><br>
+        <label for="">Cargo: </label>
+        <select name="role" id="">
+            <option value="">Selecione o cargo</option>
+            <option value="administrativo">Assistente administrativo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select>
+        <!--O select também aceita o atributo multiple-->
+        <br>
+        <label for="">Assunto: </label><input name="subject" type="text"><br>
+        <label for="">Mensagem:</label><br>
+        <textarea name="message" rows="5" cols="100" id=""></textarea><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
