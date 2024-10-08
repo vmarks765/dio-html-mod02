@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Botão Radio</title>
+</head>
+<body>
+    <form method="get">
+        <h3>Você selecionou a pizza de sabor: Calabresa</h3>
+        <p>Quais opcionais você deseja?</p>
+
+        <input type="checkbox" name="opcional[]" value="cheddar"> + Cheddar <br>
+        <input type="checkbox" disabled name="opcional[]" value="frango"> + Frango <br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + Cebola <br>
+        <input type="checkbox" name="opcional[]" value="azeitonas"> + Azeitonas <br>
+
+        <!--opcional[] é uma lista-->
+
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim"> Sim <br>
+        <input type="radio" name="borda" value="nao"> Não <br>
+
+        <p>Bebida:</p>
+        <input type="radio" name="bebida" value="suco"> Suco <br>
+        <input type="radio" name="bebida" value="refrigerante"> Refrigerante <br>
+        <input type="radio" name="bebida" value="agua"> Água Mineral <br>
+        <input type="radio" name="bebida" value="nenhuma"> Nenhuma <br>
+        <br>
+        <button type="submit">Enviar pedido</button>
+
+
+
+    </form>
+    
+</body>
+</html>
