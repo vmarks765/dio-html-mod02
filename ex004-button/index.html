@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões (Button)</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <!--
+        O onsubmit irá validar se o formulário foi preenchido corretamente (por meio de rotina JavaScript)
+        -->
+        <label for="">Login: </label><input type="text" name="login"><br>
+        <label for="">Senha: </label><input type="password" name="password"><br>
+        <!--
+        <button type="button" onclick="alert('Você clicou no botão!')">Clicável</button><br>
+        -->
+        <!--<button type="reset" onclick="alert('Você limpou os campos!')">Limpar</button><br>
+        Limpa apenas os dados do form no qual está inserido-->
+        <button type="submit" onclick="alert('Você fez login com sucesso!')">Enviar</button><br>
+        <!--Envia os dados do formulário para o banco de dados no servidor (ao dar ENTER com o teclado o botáo do tipo submit será acionado)-->
+
+    </form>
+</body>
+</html>
