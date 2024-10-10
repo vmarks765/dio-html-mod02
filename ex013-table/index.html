@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; e &lt;th&gt;</title>
+    <style>
+        table tr:nth-child(even){
+            background-color: lightblue;
+        }
+        table tr:hover {
+            background-color: lightgreen;
+        }
+        </style>
 </head>
 <body>
-    <table summary="Mee nome e idade" border="1" width="200" align="center" cellspacing="2" cellpadding="15">
+    <table summary="Minha família" border="1" width="200" align="center" cellspacing="2" cellpadding="5">
         <tr>
-            <td>Nome</td>
-            <td>Idade</td>
+            <th title="Nome Completo">Nome</th>
+            <th>Idade</th>
         </tr>
-        <tr>
-            <td>Vinícius</td>
+        <tr id="1">
+            <td>Vinícius Marques</td>
             <td>29</td>
+        </tr>
+        <tr id="2">
+            <td>Isolda Hipólito</td>
+            <td>29</td>
+        </tr>
+        <tr id="3">
+            <td>José Pedro Hipólito Marques</td>
+            <td>0</td>
         </tr>
     </table>
 </body>
